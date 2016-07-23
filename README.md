@@ -2,10 +2,10 @@
 
 An Angular 2 starter project written in [Typescript][typescript] and featuring (Router, Forms, Directives, Unit tests and E2E tests) [Karma][karma], [Protractor][protractor], [Jasmine][jasmine], [Saucelabs][saucelabs], [CircleCI][circleci], [NodeJS][nodejs], [Istanbul][istanbul], [Typescript][typescript], [Typings][typings], [Tslint][tslint] and [SystemJS][systemjs].
 
-[![Circle CI](https://circleci.com/gh/thisissoon/angular2-start.svg?style=shield)](https://circleci.com/gh/thisissoon/angular2-start)
-[![Coverage Status](https://coveralls.io/repos/github/thisissoon/angular2-start/badge.svg?branch=master)](https://coveralls.io/github/thisissoon/angular2-start?branch=master)
+[![Circle CI](https://circleci.com/gh/gitu/project-report.svg?style=shield)](https://circleci.com/gh/gitu/project-report)
+[![Coverage Status](https://coveralls.io/repos/github/gitu/project-report/badge.svg?branch=master)](https://coveralls.io/github/gitu/project-report?branch=master)
 
-[![Build Status](https://saucelabs.com/open_sauce/build_matrix/angular2-start.svg)](https://saucelabs.com/beta/builds/94850a413053429f8e9a6554072b366b)
+[![Build Status](https://saucelabs.com/open_sauce/build_matrix/gitu/project-report.svg)](https://saucelabs.com/beta/builds/)
 
 If you're looking for Angular 1.x please use [angular-start][angularstart]
 
