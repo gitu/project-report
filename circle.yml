@@ -40,5 +40,5 @@ deployment:n
   prod:
     branch: master
     commands:
-      - NODE_ENV="prod" npm build
+      - EMBER_ENV="prod" npm build
       - firebase deploy --non-interactive --token "$FIREBASE_TOKEN"
