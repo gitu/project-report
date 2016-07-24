@@ -41,5 +41,5 @@ deployment:
     branch: master
     commands:
       - npm run clean:dist
-      - EMBER_ENV="prod" npm build
+      - EMBER_ENV="prod" npm run build
       - firebase deploy --non-interactive --token "$FIREBASE_TOKEN"
