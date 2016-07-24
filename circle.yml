@@ -25,7 +25,7 @@ dependencies:
 
 # Test Commands
 
-test:
+test:n
   override:
     - npm run lint
     #- nvm use 4.4 && npm run test # Node LTS (Mature)
@@ -40,5 +40,6 @@ deployment:
   prod:
     branch: master
     commands:
+      - npm run clean:dist
       - EMBER_ENV="prod" npm build
       - firebase deploy --non-interactive --token "$FIREBASE_TOKEN"
