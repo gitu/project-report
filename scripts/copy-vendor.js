@@ -16,7 +16,17 @@ var copy = require('copy'),
       srcBase: 'node_modules'
     };
 
-copy(files, dest, options, function(err, files) {
-  if (err) throw err;
-  // `files` is an array of the files that were copied
-});
+function copyList(files) {
+  var coll = files.slice(0); // clone collection
+  (function insertOne() {
+    var record = coll.splice(0, 1)[0]; // get the first record of coll and reduce coll by one
+    copy(record, dest, options, function (err) {
+      if (err) throw err;
+      if (coll.length > 0) {
+        insertOne();
+      }
+    });
+  })();
+}
+
+copyList(files);
