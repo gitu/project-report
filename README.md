@@ -5,7 +5,7 @@ An Angular 2 starter project written in [Typescript][typescript] and featuring (
 [![Circle CI](https://circleci.com/gh/gitu/project-report.svg?style=shield)](https://circleci.com/gh/gitu/project-report)
 [![Coverage Status](https://coveralls.io/repos/github/gitu/project-report/badge.svg?branch=master)](https://coveralls.io/github/gitu/project-report?branch=master)
 
-[![Build Status](https://saucelabs.com/browser-matrix/project-report.svg)](https://saucelabs.com/beta/builds/775fe5cc96b349d38f25ad056c5ef3dd)
+[![Build Status](https://saucelabs.com/browser-matrix/project-report.svg)](https://saucelabs.com/open_sauce/user/project-report)
 
 If you're looking for Angular 1.x please use [angular-start][angularstart]
 
@@ -17,16 +17,6 @@ The project is preconfigured to install the Angular framework, Angular CLI and a
 ## Getting Started
 
 __Note__: make sure you have [node][nodejs] version >= 4 installed. We recommend using [node version manager][nvm] to install nodejs and manage node versions.
-
-### Clone the Angular Start repository
-
-Clone the angular2-start repository using [git][git]:
-
-```
-cd path/to/parent/directory
-git clone --depth 1 git@github.com:thisissoon/angular2-start.git
-cd angular2-start
-```
 
 
 ### Install Dependencies
