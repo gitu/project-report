@@ -6,41 +6,30 @@
   "angular-cli": {},
   "scripts": {
     "postinstall": "typings install",
-
     "prestart": "npm run build",
     "start": "forever start ./dist/server.js",
     "restart": "forever restart ./dist/server.js",
     "stop": "forever stop ./dist/server.js",
-
     "prewatch": "npm run clean:dist && npm run copy && npm run less",
     "watch": "concurrently \"npm run watch:less\" \"npm run watch:ts\" \"npm run watch:static\" \"npm run server\" \"nodemon ./dist/server.js\"",
     "watch:less": "less-watch-compiler ./src/less ./dist/css main.less",
     "watch:ts": "tsc -w -p ./src",
     "watch:static": "watch \"npm run copy:static\" ./src --filter=\"./scripts/watch-static-filter.js\"",
-
     "server": "lr-http-server . -b -p 3001 -w \"dist/**/*.css,dist/**/*.js,dist/**/*.html,dist/**/*.json,prototype/**/*\"",
-
     "clean:dist": "rimraf ./dist",
     "clean:coverage": "rimraf ./coverage",
-
     "copy": "npm run copy:static && npm run copy:vendor",
     "copy:static": "node ./scripts/copy-static.js",
     "copy:vendor": "node ./scripts/copy-vendor.js",
-
     "less": "lessc ./src/less/main.less ./dist/css/main.css",
-
     "prebuild": "npm run clean:dist && npm run less",
     "build": "tsc -p ./src",
     "postbuild": "npm run copy",
-
     "lint": "tslint \"src/**/*.ts\"",
-
     "pretest": "npm run clean:coverage && npm run build",
     "test": "karma start ./config/karma.conf.js",
     "posttest": "npm run coverage:stdout",
-
     "e2e": "bash ./test-e2e.sh",
-
     "coverage:coveralls": "coveralls < ./coverage/lcov.info",
     "coverage:stdout": "cat ./coverage/coverage.txt"
   },
@@ -56,9 +45,11 @@
     "@angular/router": "3.0.0-alpha.8",
     "angular-cli": "1.0.0-beta.5",
     "angular2-universal": "~0.104.5",
+    "angularfire2": "^2.0.0-beta.2",
     "body-parser": "1.15.1",
     "bootstrap": "3.3.6",
     "express": "4.14.0",
+    "firebase": "^3.2.0",
     "methods": "1.1.2",
     "parse5": "1.5.0",
     "preboot": "2.1.2",
