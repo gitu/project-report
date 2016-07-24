@@ -1,15 +1,11 @@
-# Angular2 Start
-
-An Angular 2 starter project written in [Typescript][typescript] and featuring (Router, Forms, Directives, Unit tests and E2E tests) [Karma][karma], [Protractor][protractor], [Jasmine][jasmine], [Saucelabs][saucelabs], [CircleCI][circleci], [NodeJS][nodejs], [Istanbul][istanbul], [Typescript][typescript], [Typings][typings], [Tslint][tslint] and [SystemJS][systemjs].
+# Project Report
 
 [![Circle CI](https://circleci.com/gh/gitu/project-report.svg?style=shield)](https://circleci.com/gh/gitu/project-report)
 [![Coverage Status](https://coveralls.io/repos/github/gitu/project-report/badge.svg?branch=master)](https://coveralls.io/github/gitu/project-report?branch=master)
 
 [![Build Status](https://saucelabs.com/browser-matrix/project-report.svg)](https://saucelabs.com/open_sauce/user/project-report)
 
-If you're looking for Angular 1.x please use [angular-start][angularstart]
-
-This project structure is based on the [Angular Universal Starter][universalstarter] and [Angular CLI][angularcli] skeleton for a typical [Angular 2][angular] Universal/SystemJS application.
+This project structure is based on the [Angular2]
 
 The project is preconfigured to install the Angular framework, Angular CLI and a bunch of development and testing tools for instant web development gratification.
 
@@ -186,3 +182,4 @@ For more information on Angular please check out [https://angular.io/][angular]
 [angular]: https://angular.io/
 [angularcli]:https://cli.angular.io/
 [nvm]: https://github.com/creationix/nvm
+[]
