@@ -1,6 +1,15 @@
 {
   "rules": {
-    ".read": "auth != null",
-    ".write": "auth != null"
+    ".read": false,
+    ".write": false,
+
+    "users": {
+      "$userId": {
+        "profile": {
+          ".read": "(auth != null) && ($userId === auth.uid)",
+          ".write": "(auth != null) && ($userId === auth.uid)"
+        }
+      }
+    }
   }
 }
