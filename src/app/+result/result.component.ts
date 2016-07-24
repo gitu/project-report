@@ -50,7 +50,7 @@ import 'rxjs/add/operator/map';
   styles: [],
   directives: [ ...ROUTER_DIRECTIVES ]
 })
-export class ResultComponent implements OnInit {
+export class ResultCoponent implements OnInit {
 
   results: Array<Location> = [];
   loading: Boolean = true;
