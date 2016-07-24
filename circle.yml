@@ -25,7 +25,7 @@ dependencies:
 
 # Test Commands
 
-test:n
+test:
   override:
     - npm run lint
     #- nvm use 4.4 && npm run test # Node LTS (Mature)
