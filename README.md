@@ -167,7 +167,7 @@ For more information on Angular please check out [https://angular.io/][angular]
 [npm]: https://www.npmjs.org/
 [node]: http://nodejs.org
 [protractor]: https://angular.github.io/protractor/#/
-[jasmine]: http://pivotal.github.com/jasmine/
+[jasmine]: https://jasmine.github.io/
 [karma]: https://karma-runner.github.io/
 [typescript]: http://www.typescriptlang.org/
 [saucelabs]: http://saucelabs.com/
